@@ -1,4 +1,5 @@
 var units = [];
+var pairings = [];
 
 var unitNames = [
     'walter', 'lionel', 'zachary', 'bradley', 'shaun', 'chase', 'lydia',
@@ -43,6 +44,11 @@ function loadUnits() {
 function selectUnitOne() {
     if (!done) {
         units[unit1].score += 1;
+        // Store pairings data to avoid repeats
+        pairings.push({
+            units: [units[unit1], units[unit2]],
+            winner: units[unit1]
+        });
         loadUnits();
     }
 }
@@ -50,6 +56,11 @@ function selectUnitOne() {
 function selectUnitTwo() {
     if (!done) {
         units[unit2].score += 1;
+        // Store pairings data to avoid repeats
+        pairings.push({
+            units: [units[unit1], units[unit2]],
+            winner: units[unit2]
+        });
         loadUnits();
     }
 }
@@ -57,31 +68,52 @@ function selectUnitTwo() {
 function getRandomUnits() {
     // Returns an array of two units with the same (lowest) score as long as there are at least 2
 
-    var selectableUnits = [];
     while (true)
     {
-        for (var unit in units) {
-            if (units[unit].score == lowestScore) {
-                selectableUnits.push(units[unit]);
+        var selectableUnits = [];
+        while (true)
+        {
+            for (var unit in units) {
+                if (units[unit].score == lowestScore) {
+                    selectableUnits.push(units[unit]);
+                }
+            }
+            console.log(selectableUnits.length);
+            if (selectableUnits.length < 2) {
+                lowestScore += 1;
+                if (weAreDone()) {
+                    done = true;
+                    return;
+                } else {
+                    continue;
+                }
+            } else {
+                break;
             }
         }
-        console.log(selectableUnits.length);
-        if (selectableUnits.length < 2) {
-            lowestScore += 1;
-            if (weAreDone()) {
-                done = true;
-                return;
-            } else {
-                continue;
+        var random1 = selectableUnits[Math.floor(Math.random() * selectableUnits.length)];
+        var random2 = random1;
+        while (random2 == random1) {
+            random2 = selectableUnits[Math.floor(Math.random() * selectableUnits.length)];
+        }
+
+        // Check to see that this pairing hasn't occurred before
+        tryAgain = false;
+        for (var pairing in pairings)
+        {
+            var currentPairing = pairings[pairing];
+            if (currentPairing.units.indexOf(random1) != -1 && currentPairing.units.indexOf(random2) != -1)
+            {
+                // Assign a point to the last winner and move on
+                var index = units.indexOf(currentPairing.winner);
+                units[index].score += 1;
+                tryAgain = true;
             }
-        } else {
+        }
+
+        if (!tryAgain) {
             break;
         }
-    }
-    var random1 = selectableUnits[Math.floor(Math.random() * selectableUnits.length)];
-    var random2 = random1;
-    while (random2 == random1) {
-        random2 = selectableUnits[Math.floor(Math.random() * selectableUnits.length)];
     }
 
     // Return the indicies of the two selected units
