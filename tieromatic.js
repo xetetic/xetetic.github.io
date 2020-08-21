@@ -28,6 +28,10 @@ function loadUnits() {
     if (!done) {
         // Assigns the index of the unit to global vars unit1 and unit2
         var randomUnits = getRandomUnits();
+        if (!randomUnits)
+        {
+            return;
+        }
         unit1 = randomUnits[0];
         unit2 = randomUnits[1];
 
@@ -78,7 +82,6 @@ function getRandomUnits() {
                     selectableUnits.push(units[unit]);
                 }
             }
-            console.log(selectableUnits.length);
             if (selectableUnits.length < 2) {
                 lowestScore += 1;
                 if (weAreDone()) {
@@ -144,7 +147,6 @@ function loadResultsPage() {
         idName = "unit";
         var idNum = Number(unit) + 1;
         idName += idNum;
-        console.log(idName);
         document.getElementById(idName).src = units[unit].imgName;
     }
 
