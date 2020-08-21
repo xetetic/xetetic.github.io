@@ -1,0 +1,511 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get_",
+				"get_property\tfunction"
+			],
+			[
+				"winnin",
+				"winnings_edesc"
+			],
+			[
+				"banned_",
+				"banned_array"
+			],
+			[
+				"gamE",
+				"game_host"
+			],
+			[
+				"get_ob",
+				"get_obj_room"
+			],
+			[
+				"powd",
+				"powder_location"
+			],
+			[
+				"valid",
+				"validate_perfume"
+			],
+			[
+				"hours_playe",
+				"hours_played_str"
+			],
+			[
+				"seconds",
+				"seconds_played"
+			],
+			[
+				"minutes",
+				"minutes_played"
+			],
+			[
+				"hours",
+				"hours_played"
+			],
+			[
+				"Co",
+				"Colony\tclass"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "ui",
+		"selected_items":
+		[
+			[
+				"ui",
+				"UI: Select Theme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"\\",
+				"Snippet: Try/Except"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 459.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Documents/tieromatic"
+	],
+	"file_history":
+	[
+		"/D/Desktop/rocketchat_password.txt",
+		"/D/Desktop/tg notes.txt",
+		"/D/Desktop/tilvan.txt",
+		"/D/Desktop/ringcentral call info",
+		"/D/Desktop/post 6-21-20.txt",
+		"/D/Videos/twitter backup code",
+		"/D/Videos/LP Four Kings/title_desc_template.txt",
+		"/D/Desktop/healthix/message_scanner.py",
+		"/C/Users/Talal/AppData/Local/Microsoft/Windows/INetCache/IE/1Q48QENA/Registry_Report_1597927261421[1].txt",
+		"/D/Desktop/healthix/messages.csv",
+		"/D/Downloads/FEBuilderGBA_20200603.02/README.txt",
+		"/D/Downloads/message (1).txt",
+		"/D/Desktop/healthix/password.txt",
+		"/D/Downloads/codedump (1).txt",
+		"/C/Users/talal/Downloads/arm_codedump.txt",
+		"/C/Users/Talal/OneDrive/people kaine knows.txt",
+		"/D/Downloads/windows_the_void_club_05/windows_the_void_club 0.5/girls.txt",
+		"/D/Downloads/message.txt",
+		"/D/Desktop/healthix/messages_3262020.csv",
+		"/C/Users/Talal/OneDrive/apoc_js/shell_game",
+		"/C/Users/Talal/OneDrive/apoc_js/teapot",
+		"/C/Users/Talal/OneDrive/apoc_js/blinding_powder_effect",
+		"/C/Users/Talal/OneDrive/apoc_js/blinding_powder",
+		"/C/Users/talal/OneDrive/apoc_js/dartboard",
+		"/C/Users/talal/OneDrive/apoc_js/perfume_spray",
+		"/C/Users/talal/OneDrive/apoc_js/brawl_room",
+		"/C/Users/talal/OneDrive/apoc_js/view_edesc",
+		"/C/Users/talal/OneDrive/apoc_js/perfume_spray.js",
+		"/D/Desktop/stream_files/timer.py",
+		"/D/Desktop/stream_files/afk.txt",
+		"/D/Desktop/stream_files/bottom_text.txt",
+		"/D/Desktop/stream_files/top-text.txt",
+		"/C/Users/Talal/OneDrive/Desktop/kaine outfits.txt",
+		"/C/Users/Talal/OneDrive/thelrudan.txt",
+		"/C/Users/talal/OneDrive/songs.txt",
+		"/D/Desktop/heal email.txt",
+		"/D/Desktop/apoc_prompt_scripts/3.lua",
+		"/D/Desktop/apoc_prompt_scripts/7.lua",
+		"/D/Desktop/apoc_prompt_scripts/1.lua",
+		"/D/Desktop/timer.xml",
+		"/D/Desktop/apoc_prompt/apoc_prompt.xml",
+		"/C/Users/Talal/OneDrive/songs.txt",
+		"/C/Users/Talal/OneDrive/apoc_database.txt",
+		"/D/Desktop/MonteCC/apoc_prompt.lua",
+		"/D/Desktop/MonteCC/deduplicate.py",
+		"/D/Documents/thelrudan.txt",
+		"/D/Desktop/arm.c",
+		"/D/Desktop/MonteCC/new Montefiore CMO Pts Seen Report - Cumulative Data.xlsx",
+		"/D/Desktop/MonteCC/email.txt",
+		"/C/Users/Talal/AppData/Local/Temp/fz3temp-2/.bashrc",
+		"/F/bloodmud/.bashrc",
+		"/D/Downloads/em_thoughts (1).txt",
+		"/D/Downloads/em_thoughts.txt",
+		"/D/Documents/Saved/progress notes reminder.txt",
+		"/D/Desktop/MonteCC/Montefiore CMO Pts Seen Report - Cumulative Data.xlsx",
+		"/D/Desktop/referralreader/notes.txt",
+		"/D/Desktop/referralreader/referral.txt",
+		"/D/Desktop/referralreader/readerspecial.py",
+		"/D/Desktop/referralreader/reader.py",
+		"/D/Steam/steamapps/common/Victoria 2/mod/HPM/history/countries/CHL - Chile.txt",
+		"/D/Steam/steamapps/common/Victoria 2/mod/HPM/common/nationalvalues.txt",
+		"/D/Steam/steamapps/common/Victoria 2/mod/HPM/history/countries/HAW - Hawaii.txt",
+		"/D/Steam/steamapps/common/Victoria 2/mod/HPM/history/countries/CLM - Colombia.txt",
+		"/D/Desktop/soren shang.txt",
+		"/C/Users/Talal/AppData/Local/Temp/Temp1_FE5_Patch_0006.zip/What's Up Doc(readme).txt",
+		"/C/SteamLibrary/steamapps/common/Crusader Kings II/common/cultures/00_cultures.txt",
+		"/D/Downloads/LoSeSb-Patreon-18091-win7z/LoSeSb-Patreon-18.09.2b-win/changelog.txt",
+		"/C/SteamLibrary/steamapps/common/Crusader Kings II/history/characters/irish.txt",
+		"/D/Desktop/cmo tag/ccmtag.py",
+		"/D/Desktop/cmo tag/autotag.py",
+		"/D/Desktop/cmo tag/accounts.txt",
+		"/D/Downloads/Emblem Magic BETA 2/Emblem Magic/Modules/old/FE8/Support editors/Affinity.txt",
+		"/D/Desktop/webref/referral.txt",
+		"/D/Desktop/webref/webref.py",
+		"/D/Desktop/healthix/2613512.txt",
+		"/D/Downloads/nightmare/nightmareformat.txt",
+		"/D/Downloads/Milf's Villa Final/Milf's Villa/www/Walkthrough - Help.txt",
+		"/D/Desktop/healthix/1221094.txt",
+		"/D/Desktop/healthix/1276262.txt",
+		"/D/Desktop/healthix/2020045.txt",
+		"/D/Documents/Saved/goto card serial number.txt",
+		"/D/Desktop/healthix/1156148.txt",
+		"/D/Desktop/healthix/1795905.txt",
+		"/D/Desktop/healthix/log_06-29-2018.txt",
+		"/D/Desktop/healthix/2698561.txt",
+		"/D/Desktop/healthix/2627426.txt",
+		"/D/Desktop/healthix/2595762.txt",
+		"/D/Desktop/healthix/2433890.txt",
+		"/D/Desktop/healthix/1554047.txt",
+		"/D/Desktop/healthix/1230730.txt",
+		"/D/Desktop/healthix/2602351.txt",
+		"/D/Desktop/healthix/2280282.txt",
+		"/D/Desktop/healthix/1942229.txt",
+		"/D/Desktop/healthix/1443562.txt",
+		"/D/Desktop/healthix/1155960.txt",
+		"/D/Desktop/healthix/1228781.txt",
+		"/D/Desktop/healthix/1993087.txt",
+		"/D/Desktop/healthix/2532166.txt",
+		"/D/Desktop/healthix/2584907.txt",
+		"/D/Desktop/healthix/1371672.txt",
+		"/D/Desktop/healthix/2045320.txt",
+		"/D/Desktop/healthix/2193526.txt",
+		"/D/Desktop/healthix/2443041.txt",
+		"/D/Desktop/healthix/2443300.txt",
+		"/D/Desktop/healthix/2519442.txt",
+		"/D/Desktop/healthix/2606382.txt",
+		"/D/Desktop/healthix/2608270.txt",
+		"/D/Desktop/healthix/2653849.txt",
+		"/D/Desktop/healthix/2695878.txt",
+		"/D/Desktop/healthix/2249946.txt",
+		"/D/Desktop/healthix/2464644.txt",
+		"/D/Desktop/healthix/1790022.txt",
+		"/D/Desktop/healthix/2093867.txt",
+		"/D/Desktop/healthix/2392279.txt",
+		"/D/Desktop/healthix/1694033.txt",
+		"/D/Desktop/healthix/1258944.txt",
+		"/D/Desktop/healthix/1223287.txt",
+		"/D/Desktop/healthix/1155762.txt",
+		"/D/Desktop/healthix/2665781.txt",
+		"/D/Desktop/healthix/1773277.txt",
+		"/D/Desktop/healthix/1698149.txt",
+		"/D/Desktop/healthix/1408320.txt",
+		"/D/Documents/My Games/CMUD/Arx/2018-05-28.txt",
+		"/D/Desktop/healthix/1764451.txt",
+		"/D/Desktop/healthix/1902255.txt",
+		"/D/Desktop/healthix/2195493.txt",
+		"/D/Desktop/healthix/1230993.txt",
+		"/D/Desktop/healthix/2056221.txt"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"scent_lirathuf",
+			"|BioReference Laboratories, Inc (BIOREF)|",
+			"laboratories,",
+			"is_char_actively_watching_char",
+			"you notice:",
+			"emote_parse",
+			"cmd_hemote",
+			"1000",
+			"skill_watch, ",
+			"cmd_hemote",
+			"item_drink",
+			"spec_js_aflag_remove",
+			"skill_two_handed",
+			"spec_js_remove",
+			"spec_js_extract",
+			"affected_by_spell",
+			"cast_blind",
+			"spec_js_add_",
+			"affected_by_spell",
+			"spell",
+			"spec_js_affect",
+			"wind_armor",
+			"item_armor",
+			"type_armor",
+			"get_obj_equipped",
+			"etwo",
+			"blind_fight",
+			"js_spec",
+			"cmd_o",
+			"invisibility: ",
+			"study",
+			"cmd_study",
+			"cmd_ready",
+			"!number(0, 5)",
+			"number(0, 5)",
+			"ethereal: ",
+			"cast_blade_barrier",
+			"mana",
+			"cmd_bandage",
+			"skill_trample, ",
+			"invisibility: ",
+			"specials.eco",
+			"tohit",
+			"to_hit",
+			"armor: ",
+			"armor",
+			"permanently",
+			"ethereal: ",
+			"number(1, 4)",
+			"cmd_craft",
+			"create_object",
+			"min_lang_level",
+			"25000",
+			"learning",
+			"learn",
+			"wisdom",
+			"learn ",
+			"number(1, 500",
+			", 1000",
+			"stack_spell_affect",
+			"spell_detect_invisible(",
+			"spell_detect_invisible",
+			"detect invisible",
+			"detect invisible:",
+			"invisibility: ",
+			"duration",
+			"goto",
+			"!number(0, 4)",
+			"number(1, 5)",
+			"spell_wind_armor",
+			"create food:",
+			"liq_water_vivadu",
+			"liq_water",
+			"liq_vivadu",
+			"easy to",
+			"cmd_offer",
+			"abbr",
+			"cmd_",
+			"cmd_close",
+			"portal",
+			"PORTAL_OBJ",
+			"ethereal: ",
+			"10 * (",
+			"power",
+			"(1, 4)",
+			"+ 1",
+			".power",
+			"empower",
+			"empower:",
+			"glows with a ",
+			"white light",
+			"char_aff_sanctuary",
+			"spell_sanctuary",
+			"heal: ",
+			"cast_blade_barrier",
+			"spell_blade_barrier",
+			"spell_blade_barrier(",
+			"spell_blade_barier(",
+			"blade barrier",
+			"blade barrier:",
+			"blade barrier: ",
+			"spell_energy_shield",
+			"spell_energy_shield(",
+			"spell_mark(",
+			"spell_mark",
+			"spell_relocate",
+			"eco + 1",
+			"gain_skill(ch, skill_ga",
+			"ch->specials.eco",
+			"ch->speciales.eco",
+			"relationship to the land",
+			"money_mgr(",
+			"= ITEM_MONEY",
+			"cmd_get",
+			"calc_object_weight",
+			"obj->obj_flags.weight = MAX((int) (amount / 200), 1) * 100",
+			"create_money",
+			"COIN_ALLANAK",
+			"obsidian",
+			"GET_OBSIDIAN",
+			"weight",
+			"coins",
+			"get_encumberance(",
+			"encumberance",
+			"Armageddon",
+			"font-weight: bold",
+			"font-family: 'Fondamento', serif;",
+			"Health"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"BioReference Laboratories",
+			"BioReference",
+			"BioReference Laboratories",
+			"laboratories",
+			"font-family: 'Fondamento', serif;\nfont-weight: bold;",
+			"Number of Visits Requested:",
+			".  "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 56.8
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "tieromatic.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Desktop\\fudge_dice_tester\\fdt.sublime-project"
+			],
+			[
+				"fe",
+				"D:\\Desktop\\quick_fe_builder_scripts\\febuilder.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 368.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 560.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

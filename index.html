@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Four Kings Tier-O-Matic!</title>
+
+    <style>
+        div {text-align: center;}
+    </style>
+
+    <script type="text/javascript" src="./tieromatic.js"></script>
+  </head>
+  <body onload="loadUnits();">
+
+    <div class="container" id="votingContainer">
+        <div class="row">
+            <div class="col">
+                <h1>Four Kings Tier-O-Matic!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <a onclick="selectUnitOne();">
+                <div class="col" id="unit1">
+                    <img id="unit1img" width=384 height=320 src="/">
+                    <h2 id="unit1name"></h2>
+                </div>
+            </a>
+            <div class="col">
+                <p>Click the character you think is better than the other. Once you're done, your results will automatically generate. Note: there are 40 characters in The Four Kings, so this will take a while!</p>
+            </div>
+            <a onclick="selectUnitTwo();">
+                <div class="col" id="unit2">
+                    <img id="unit2img" width=384 height=320 src="/">
+                    <h2 id="unit2name"></h2>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="container" id="resultsContainer" style="display:none">
+        <div class="row">
+            <div class="col">
+                <h1>Four Kings Tier-O-Matic!</h1>
+            </div>
+        </div>
+        <div class="row" id="row18">
+            <div class="col">
+                <img id="unit1" src="/">
+                <img id="unit2" src="/">
+                <img id="unit3" src="/">
+                <img id="unit4" src="/">
+                <img id="unit5" src="/">
+                <img id="unit6" src="/">
+                <img id="unit7" src="/">
+                <img id="unit8" src="/">
+            </div>
+        </div>
+        <div class="row" id="row916">
+            <div class="col">
+                <img id="unit9" src="/">
+                <img id="unit10" src="/">
+                <img id="unit11" src="/">
+                <img id="unit12" src="/">
+                <img id="unit13" src="/">
+                <img id="unit14" src="/">
+                <img id="unit15" src="/">
+                <img id="unit16" src="/">
+            </div>
+        </div>
+        <div class="row" id="row1724">
+            <div class="col">
+                <img id="unit17" src="/">
+                <img id="unit18" src="/">
+                <img id="unit19" src="/">
+                <img id="unit20" src="/">
+                <img id="unit21" src="/">
+                <img id="unit22" src="/">
+                <img id="unit23" src="/">
+                <img id="unit24" src="/">
+            </div>
+        </div>
+        <div class="row" id="row2532">
+            <div class="col">
+                <img id="unit25" src="/">
+                <img id="unit26" src="/">
+                <img id="unit27" src="/">
+                <img id="unit28" src="/">
+                <img id="unit29" src="/">
+                <img id="unit30" src="/">
+                <img id="unit31" src="/">
+                <img id="unit32" src="/">
+            </div>
+        </div>
+        <div class="row" id="row3340">
+            <div class="col">
+                <img id="unit33" src="/">
+                <img id="unit34" src="/">
+                <img id="unit35" src="/">
+                <img id="unit36" src="/">
+                <img id="unit37" src="/">
+                <img id="unit38" src="/">
+                <img id="unit39" src="/">
+                <img id="unit40" src="/">
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
