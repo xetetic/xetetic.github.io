@@ -34,15 +34,17 @@ function loadUnits() {
         }
         unit1 = randomUnits[0];
         unit2 = randomUnits[1];
-
-        // Display each unit on the page
-        document.getElementById("unit1name").innerHTML = units[unit1].unitName;
-        document.getElementById("unit2name").innerHTML = units[unit2].unitName;
-        document.getElementById("unit1img").src = units[unit1].imgName;
-        document.getElementById("unit2img").src = units[unit2].imgName;
+        displayUnits();
     } else {
         loadResultsPage();
     }
+}
+
+function displayUnits() {
+    document.getElementById("unit1name").innerHTML = units[unit1].unitName;
+    document.getElementById("unit2name").innerHTML = units[unit2].unitName;
+    document.getElementById("unit1img").src = units[unit1].imgName;
+    document.getElementById("unit2img").src = units[unit2].imgName;
 }
 
 function selectUnitOne() {
@@ -67,6 +69,17 @@ function selectUnitTwo() {
         });
         loadUnits();
     }
+}
+
+function undoLastSelection() {
+    if (pairings.length == 0) {
+        return;
+    }
+    var lastSelection = pairings.pop();
+    unit1 = units.indexOf(lastSelection.units[0]);
+    unit2 = units.indexOf(lastSelection.units[1]);
+    units[units.indexOf(lastSelection.winner)].score -= 1;
+    displayUnits();
 }
 
 function getRandomUnits() {
